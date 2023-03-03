@@ -1,0 +1,23 @@
+#!/bin/bash
+if [ $# == 1 ]
+then
+  file_name=$1
+  file_basename=$(basename --suffix=.xopp $1)
+  echo Opening file $file_name...
+  xournalpp $file_name
+  echo Exporting $file_name to PDF.
+  xournalpp -p $file_basename.pdf $file_name
+  evince $file_basename.pdf
+else
+  if [ ! -d "XOPPs/" ]
+  then
+    mkdir XOPPs/
+    echo "Made the folder with XOPPs sources."
+  fi
+  new_file_name=$(date -I)-$(cat ../.dirname)
+  echo Opening file $new_file_name.xopp...
+  xournalpp XOPPs/$new_file_name.xopp
+  echo Exporting XOPPs/$new_file_name.xopp to PDF.
+  xournalpp -p $new_file_name.pdf XOPPs/$new_file_name.xopp
+  evince $new_file_name.pdf
+fi
