@@ -37,3 +37,7 @@ After installation and configuration you can just `cd` to your notes directory a
 
 That's it. Have a good cloud :-)
 
+## Moreover
+Вы можете прочитать этот файл на русском языке, он [расположен здесь](https://rentry.co/uuf6c).
+This file in Russian is [located there](https://rentry.co/uuf6c).
+
