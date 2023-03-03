@@ -37,6 +37,3 @@ nano .dirname
 
 Это всё. Хороших вам облаков :-)
 
-## Кроме того
-Эта инструкция написана для программы AutoXournal, которая может быть найдена по адресу https://github.com/saltysallysmine/AutoXournal.
-
