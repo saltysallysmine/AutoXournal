@@ -5,7 +5,7 @@ This small script allows you to manage your Xournal++ from command line. In part
 ## Installation
 Let's install this wonderful thing. Clone repository and give rights to the script: 
 ```bash
-git clone ...
+git clone git@github.com:saltysallysmine/AutoXournal.git
 cd AutoXournal
 chmod +x axo
 ```
@@ -31,7 +31,7 @@ Put there the name for your files. For example, `ExploringFluffyClouds`. Now you
         └── 2023-02-09-ExploringFluffyClouds.xopp
 ```
 ## Usage
-After installation and conficuration you can just `cd` to your notes directory and execute `axo`.
+After installation and configuration you can just `cd` to your notes directory and execute `axo`.
 
 ---
 
