@@ -38,5 +38,5 @@ After installation and configuration you can just `cd` to your notes directory a
 That's it. Have a good cloud :-)
 
 ## Moreover
-Вы можете прочитать этот файл на русском языке, он [расположен здесь](https://github.com/saltysallysmine/AutoXournal/blob/main/ruREADME.md) или прямо. This file in Russian is [located there](https://github.com/saltysallysmine/AutoXournal/blob/main/ruREADME.md).
+Вы можете прочитать этот файл на русском языке, он [расположен здесь](https://github.com/saltysallysmine/AutoXournal/blob/main/ruREADME.md). This file in Russian is [located there](https://github.com/saltysallysmine/AutoXournal/blob/main/ruREADME.md).
 
